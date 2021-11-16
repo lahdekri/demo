@@ -24,7 +24,7 @@ color: green;
 text-shadow: 2px 2px 5px red;
   border: 2px solid black;
   padding: 25px;
-  background: url(img_tree.gif), url(mountain.jpg);
+  background: url(https://i.pinimg.com/236x/a8/11/a2/a811a271be7d26f6b72e3ce520c158e2.jpg), url(mountain.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
