@@ -1,425 +1,174 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Free CSS | Free CSS Templates | Demo of the HTML CSS Template Be</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<style type="text/css">
-#freecssfooter{display:block;width:100%;padding:120px 0 20px;overflow:hidden;background-color:transparent;z-index:5000;text-align:center;}
-#freecssfooter div#fcssholder div{display:none;}
-#freecssfooter div#fcssholder div:first-child{display:block;}
-#freecssfooter div#fcssholder div:first-child a{float:none;margin:0 auto;}
-</style></head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
 <body>
-<script type="text/javascript">
-(function(){
-  var bsa = document.createElement('script');
-     bsa.type = 'text/javascript';
-     bsa.async = true;
-     bsa.src = '//s3.buysellads.com/ac/bsa.js';
-  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
-})();
-</script>
-<div id="preloader">
-  <div id="loading"><img src="assets/img/loading-cylon-red.svg" alt="website template image" width="256" height="32"></div>
-</div>
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-        <a class="navbar-brand" href="https://www.free-css.com/free-css-templates"><img src="assets/img/logo.png" alt="website template image"></a></div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a class="page-scroll" href="#home">Home</a></li>
-          <li><a class="page-scroll" href="#about">About</a></li>
-          <li><a class="page-scroll" href="#Services">Services</a></li>
-          <li><a class="page-scroll" href="#Gallery">Gallery</a></li>
-          <li><a class="page-scroll" href="#blog">Blog</a></li>
-          <li><a class="page-scroll" href="#contact">Contact</a></li>
-        </ul>
-      </div>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
     </div>
   </div>
-</nav>
-<header id="home" class="header">
-  <div class="container">
-    <div class="header-content row">
-      <div id="owl-demo" class="owl-carousel header1">
-        <div>
-          <div class="col-xs-12 col-sm-6 col-md-6 header-text">
-            <h2 class="wow bounceIn animated" data-wow-delay=".40s">FRIENDLY <span>TEMPLATE</span> FOR<br>
-              YOUR WEBSITE</h2>
-            <h3 class="wow bounceIn animated" data-wow-delay=".50s">FOR YOUR WEBSITE</h3>
-            <p class="wow bounceIn animated" data-wow-delay=".60s">Lorem ipsum dolor sit amet, consectetur adipiscing elit.We ensure sit amet, consectetur adipiscing elit</p>
-            <div class="btn btn-primary btn-lg btn-ornge wow bounceIn animated" data-wow-delay="1s"><i class="hbtn"></i> <span>Click Here</span></div>
-          </div>
-        </div>
-        <div>
-          <div class="col-xs-12 col-sm-6 col-md-6 header-text">
-            <h2 class="wow bounceIn animated" data-wow-delay=".40s">FRIENDLY <span>THIS</span> FOR<br>
-              YOUR WEBSITE</h2>
-            <h3 class="wow bounceIn animated" data-wow-delay=".50s">FOR YOUR WEBSITE</h3>
-            <p class="wow bounceIn animated" data-wow-delay=".60s">Lorem ipsum dolor sit amet, consectetur adipiscing elit.We ensure sit amet, consectetur adipiscing elit</p>
-            <div class="btn btn-primary btn-lg btn-ornge wow bounceIn animated" data-wow-delay="1s"><i class="hbtn"></i> <span>Click Here</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Open from 6am to 5pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">the<br>Cafe</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">15 Adr street, 5015</span>
   </div>
 </header>
-<section id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-6 wow fadeInDown animated" data-wow-delay=".5s">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, netus pellentesque mauris, non quis adipiscing aliquam tortor nulla, ut dolor, mauris sem ultricies sed tellus ut aliquam. Donec vel sollicitudin orci mi ut, neque aliquam vel vel nostrum enim tristique, magna rhoncus. Dapibus purus eget cubilia eget, in ut in mi dui ipsum odio, nullam vestibulum aliquam fusce, dignissim venenatis ultricies sed mattis non, metus a libero et. Imperdiet aliquet. Vivamus malesuada, ultrices convallis, diam vitae pellentesque volutpat ante vitae amet, ac leo, arcu duis venenatis in auctor sit suscipit.</p>
-        <p>Integer sapien sed mauris nec, volutpat risus leo placerat elit at aliquet, a egestas ultrices, vitae non amet lacus etiam, malesuada pellentesque scelerisque. Neque fermentum parturient ante pede, a dui ut ultricies luctus non nobis, amet nibh et. Diam nunc in eleifend commodo ante, amet quam integer dolor sit volutpat faucibus, sed sem, et amet sed, vestibulum mollit et a ac nullam. Eu nunc voluptas risus dui et pellentesque.</p>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-6 wow fadeInRight animated" data-wow-delay=".5s"><img src="assets/img/about-img.jpg" alt="website template image"></div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
+    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+      <p>Chef, Coffeeist and Owner: Liam Brown</p>
     </div>
-  </div>
-</section>
-<section id="team">
-  <div class="container">
-    <div class="row">
-      <div class="title">
-        <h2>Our Team</h2>
-        <p>Meet some of our lovely, passionate, positive people.</p>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInDown animated" data-wow-delay=".1s">
-        <div class="timg"><img src="assets/img/team-img1.jpg" alt="website template image"></div>
-        <div class="t-box">
-          <h3>MOHD SUBHAN</h3>
-          <span>Creative Director</span>
-          <ul class="social-links">
-            <li><a class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates"><i class="fa fa-facebook"></i></a></li>
-            <li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates"><i class="fa fa-twitter"></i></a></li>
-            <li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates"><i class="fa fa-google-plus"></i></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay=".2s">
-        <div class="timg"><img src="assets/img/team-img2.jpg" alt="website template image"></div>
-        <div class="t-box">
-          <h3>Mohd Rahman</h3>
-          <span>Website &amp; ui designer</span>
-          <ul class="social-links">
-            <li><a class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates"><i class="fa fa-facebook"></i></a></li>
-            <li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates"><i class="fa fa-twitter"></i></a></li>
-            <li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates"><i class="fa fa-google-plus"></i></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInDown animated" data-wow-delay=".3s">
-        <div class="timg"><img src="assets/img/team-img3.jpg" alt="website template image"></div>
-        <div class="t-box">
-          <h3>ZEENAT SUBHAN</h3>
-          <span>Senior Developer</span>
-          <ul class="social-links">
-            <li><a class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates"><i class="fa fa-facebook"></i></a></li>
-            <li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates"><i class="fa fa-twitter"></i></a></li>
-            <li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates"><i class="fa fa-google-plus"></i></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay=".4s">
-        <div class="timg"><img src="assets/img/team-img4.jpg" alt="website template image"></div>
-        <div class="t-box">
-          <h3>MOHD SAIF</h3>
-          <span>Content Writer</span>
-          <ul class="social-links">
-            <li><a class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates"><i class="fa fa-facebook"></i></a></li>
-            <li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates"><i class="fa fa-twitter"></i></a></li>
-            <li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates"><i class="fa fa-google-plus"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="Services">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-6 wow fadeInLeft animated" data-wow-delay=".5s"><img src="assets/img/services-img.jpg" alt="website template image" class="img-left"></div>
-      <div class="col-xs-12 col-sm-12 col-md-6 wow fadeInRight animated" data-wow-delay=".5s">
-        <h2>Services</h2>
-        <p>Lorem ipsum dolor sit amet, netus pellentesque mauris, non quis adipiscing aliquam tortor nulla, ut dolor, mauris sem ultricies sed tellus ut aliquam. Donec vel sollicitudin orci mi ut, neque aliquam vel vel nostrum enim tristique, magna rhoncus. Dapibus purus eget cubilia eget, in ut in mi dui ipsum odio, nullam vestibulum aliquam fusce, dignissim venenatis ultricies sed mattis non, metus a libero et. Imperdiet aliquet. Vivamus malesuada, ultrices convallis, diam vitae pellentesque volutpat ante vitae amet, ac leo, arcu duis venenatis in auctor sit suscipit.</p>
-        <p>Integer sapien sed mauris nec, volutpat risus leo placerat elit at aliquet, a egestas ultrices, vitae non amet lacus etiam, malesuada pellentesque scelerisque. Neque fermentum parturient ante pede, a dui ut ultricies luctus non nobis, amet nibh et. Diam nunc in eleifend commodo ante, amet quam integer dolor sit volutpat faucibus, sed sem, et amet sed, vestibulum mollit et a ac nullam. Eu nunc voluptas risus dui et pellentesque.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="for-box">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-3 wow rotateInDownLeft animated" data-wow-delay=".1s">
-        <div class="for-box-crecl"><i class="fa fa-home"></i></div>
-        <div class="clr1">
-          <h2>WEB<br>
-            DESIGN</h2>
-        </div>
-        <div class="wbox"><strong>sorem ipsum</strong>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum ac vehicula leo dulam nullam rhoncus tortor at dignissim vehicula.</p>
-          <a href="https://www.free-css.com/free-css-templates" class="clr1-a">+</a></div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 wow rotateInDownLeft animated" data-wow-delay=".2s">
-        <div class="for-box-crecl"><i class="fa fa-code"></i></div>
-        <div class="clr2">
-          <h2>WEB<br>
-            DEVELOMENT</h2>
-        </div>
-        <div class="wbox"><strong>sorem ipsum</strong>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum ac vehicula leo dulam nullam rhoncus tortor at dignissim vehicula.</p>
-          <a href="https://www.free-css.com/free-css-templates" class="clr2-a">+</a></div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 wow rotateInDownRight animated" data-wow-delay=".3s">
-        <div class="for-box-crecl"><i class="fa fa-rocket"></i></div>
-        <div class="clr3">
-          <h2>PRINT<br>
-            DESING</h2>
-        </div>
-        <div class="wbox"><strong>sorem ipsum</strong>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum ac vehicula leo dulam nullam rhoncus tortor at dignissim vehicula.</p>
-          <a href="https://www.free-css.com/free-css-templates" class="clr3-a">+</a></div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 wow rotateInDownRight animated" data-wow-delay=".4s">
-        <div class="for-box-crecl"><i class="fa fa-wifi"></i></div>
-        <div class="clr4">
-          <h2>ONLINE<br>
-            MARKITING</h2>
-        </div>
-        <div class="wbox"><strong>sorem ipsum</strong>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum ac vehicula leo dulam nullam rhoncus tortor at dignissim vehicula.</p>
-          <a href="https://www.free-css.com/free-css-templates" class="clr4-a">+</a></div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="counter">
-  <div class="container">
-    <div class="row">
-      <div class="title">
-        <h2>we are awesome, check some interesting facts</h2>
-      </div>
-      <div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".1s"><i class="fa fa-clock-o size"></i>
-        <h2>522</h2>
-        <span>Hour of Work</span></div>
-      <div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".2s"><i class="fa fa-coffee size"></i>
-        <h2>888</h2>
-        <span>Cup of Coffee</span></div>
-      <div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".3s"><i class="fa fa-trophy size"></i>
-        <h2>11</h2>
-        <span>Awards Won</span></div>
-      <div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".4s"><i class="fa fa-code size"></i>
-        <h2>55566</h2>
-        <span>Line of Code</span></div>
-      <div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".5s"><i class="fa fa-globe size"></i>
-        <h2>133</h2>
-        <span>Clients Worldwide</span></div>
-      <div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".6s"><i class="fa fa-rocket size"></i>
-        <h2>77</h2>
-        <span>Projects Delivered</span></div>
-    </div>
-  </div>
-</section>
-<section id="Gallery" class="wow flipInX animated" data-wow-delay=".5s">
-  <div class="title">
-    <h2>Gallery</h2>
-    <p>we are awesome, check some interesting facts</p>
-  </div>
-  <div class="big-demo go-wide" data-js-module="filtering-demo">
-    <div class="container">
-      <div class="row">
-        <div class="filter-button-group button-group js-radio-button-group">
-          <button class="button is-checked" data-filter="*">show all</button>
-          <button class="button" data-filter=".webdesign">Web design</button>
-          <button class="button" data-filter=".ecommerce">E-commerce</button>
-          <button class="button" data-filter=".cms">Cms</button>
-          <button class="button" data-filter=".logo">Logo</button>
-        </div>
-      </div>
-    </div>
-    <div class="grid baguetteBoxThree gallery">
-      <div class="element-item transition webdesign" data-category="post-transition"><a href="assets/img/gallery/emp-1.jpg"><img src="assets/img/gallery/emp-1.jpg" alt="website template image">
-        <div class="hover-img">
-          <h2>Website Design</h2>
-          <i class="fa fa-camera camera"></i></div>
-        </a></div>
-      <div class="element-item post-transition ecommerce" data-category="post-transition"><a href="assets/img/gallery/emp-2.jpg"><img src="assets/img/gallery/emp-2.jpg" alt="website template image">
-        <div class="hover-img">
-          <h2>E-commerce</h2>
-          <i class="fa fa-camera camera"></i></div>
-        </a></div>
-      <div class="element-item post-transition webdesign" data-category="post-transition"><a href="assets/img/gallery/emp-3.jpg"><img src="assets/img/gallery/emp-3.jpg" alt="website template image">
-        <div class="hover-img">
-          <h2>Website Design</h2>
-          <i class="fa fa-camera camera"></i></div>
-        </a></div>
-      <div class="element-item transition ecommerce" data-category="post-transition"><a href="assets/img/gallery/emp-4.jpg"><img src="assets/img/gallery/emp-4.jpg" alt="website template image">
-        <div class="hover-img">
-          <h2>E-commerce</h2>
-          <i class="fa fa-camera camera"></i></div>
-        </a></div>
-      <div class="element-item post-transition logo" data-category="post-transition"><a href="assets/img/gallery/emp-5.jpg"><img src="assets/img/gallery/emp-5.jpg" alt="website template image">
-        <div class="hover-img">
-          <h2>Logo</h2>
-          <i class="fa fa-camera camera"></i></div>
-        </a></div>
-      <div class="element-item post-transition cms" data-category="post-transition"><a href="assets/img/gallery/emp-6.jpg"><img src="assets/img/gallery/emp-6.jpg" alt="website template image">
-        <div class="hover-img">
-          <h2>CMS</h2>
-          <i class="fa fa-camera camera"></i></div>
-        </a></div>
-      <div class="element-item post-transition logo" data-category="post-transition"><a href="assets/img/gallery/emp-7.jpg"><img src="assets/img/gallery/emp-7.jpg" alt="website template image">
-        <div class="hover-img">
-          <h2>Logo</h2>
-          <i class="fa fa-camera camera"></i></div>
-        </a></div>
-      <div class="element-item transition cms" data-category="post-transition"><a href="assets/img/gallery/emp-8.jpg"><img src="assets/img/gallery/emp-8.jpg" alt="website template image">
-        <div class="hover-img">
-          <h2>CMS</h2>
-          <i class="fa fa-camera camera"></i></div>
-        </a></div>
-      <div class="element-item post-transition ecommerce" data-category="post-transition"><a href="assets/img/gallery/emp-9.jpg"><img src="assets/img/gallery/emp-9.jpg" alt="website template image">
-        <div class="hover-img">
-          <h2>E-commerce</h2>
-          <i class="fa fa-camera camera"></i></div>
-        </a></div>
-      <div class="element-item post-transition webdesign" data-category="post-transition"><a href="assets/img/gallery/emp-10.jpg"><img src="assets/img/gallery/emp-10.jpg" alt="website template image">
-        <div class="hover-img">
-          <h2>Web Design</h2>
-          <i class="fa fa-camera camera"></i></div>
-        </a></div>
-      <div class="element-item post-transition logo" data-category="post-transition"><a href="assets/img/gallery/emp-11.jpg"><img src="assets/img/gallery/emp-11.jpg" alt="website template image">
-        <div class="hover-img">
-          <h2>Logo</h2>
-          <i class="fa fa-camera camera"></i></div>
-        </a></div>
-      <div class="element-item transition cms" data-category="post-transition"><a href="assets/img/gallery/emp-12.jpg"><img src="assets/img/gallery/emp-12.jpg" alt="website template image">
-        <div class="hover-img">
-          <h2>CMS</h2>
-          <i class="fa fa-camera camera"></i></div>
-        </a></div>
-    </div>
-  </div>
-</section>
-<section id="blog">
-  <div class="container">
-    <div class="row">
-      <div class="title">
-        <h2>Our Blog</h2>
-        <p>Meet some of our lovely, passionate, positive people.</p>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
-        <div class="blog-img"><img src="assets/img/blog1.jpg" alt="website template image"></div>
-        <div class="row">
-          <div class="data">30</div>
-          <div class="month">March</div>
-        </div>
-        <div class="row">
-          <h3>Travelling with kids Quensland Capricorn Coast</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum ac vehicula leo dulam nullam rhoncus tortor at dignissim vehicula.</p>
-          <a href="pages/blog-single.php">MORE</a></div>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 wow bounceIn animated" data-wow-delay=".4s">
-        <div class="blog-img"><img src="assets/img/blog2.jpg" alt="website template image"></div>
-        <div class="row">
-          <div class="data">30</div>
-          <div class="month">March</div>
-        </div>
-        <div class="row">
-          <h3>Travelling with kids Quensland Capricorn Coast</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum ac vehicula leo dulam nullam rhoncus tortor at dignissim vehicula.</p>
-          <a href="pages/blog-single.php">MORE</a></div>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInDown animated" data-wow-delay=".3s">
-        <div class="blog-img"><img src="assets/img/blog3.jpg" alt="website template image"></div>
-        <div class="row">
-          <div class="data">30</div>
-          <div class="month">March</div>
-        </div>
-        <div class="row">
-          <h3>Travelling with kids Quensland Capricorn Coast</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum ac vehicula leo dulam nullam rhoncus tortor at dignissim vehicula.</p>
-          <a href="pages/blog-single.php">MORE</a></div>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="title">
-        <h2>Contact</h2>
-        <p>Meet some of our lovely, passionate, positive people.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 wow bounceIn animated" data-wow-delay=".1s">
-        <form action="#" method="post">
-          <div class="ajax-hidden">
-            <div class="col-xs-12 col-sm-6 col-md-6 form-group wow fadeInUp animated">
-              <label for="c_name" class="sr-only">Name</label>
-              <input type="text" placeholder="Name" name="name" class="form-control" id="name" required>
-            </div>
-            <div data-wow-delay=".1s" class="col-xs-12 col-sm-6 col-md-6 form-group wow fadeInUp animated">
-              <label for="c_email" class="sr-only">Email</label>
-              <input type="email" placeholder="E-mail" name="email" class="form-control" id="email" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" placeholder="e.g. info@envato.com" required="">
-            </div>
-            <div data-wow-delay=".2s" class="col-xs-12 col-sm-12 col-md-12 form-group wow fadeInUp animated">
-              <textarea placeholder="Message" rows="7" name="description" id="description" class="form-control" required></textarea>
-            </div>
-            <button data-wow-delay=".3s" class="btn btn-sm btn-block wow fadeInUp animated" type="submit">Send Message</button>
-          </div>
-          <div class="ajax-response"></div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-<footer id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-6">
-        <ul class="social-links">
-          <li><a class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates" style="visibility:visible;animation-name:fadeInUp;"><i class="fa fa-facebook"></i></a></li>
-          <li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates" style="visibility:visible;animation-delay:0.1s;animation-name:fadeInUp;"><i class="fa fa-twitter"></i></a></li>
-          <li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates" style="visibility:visible;animation-delay:0.2s;animation-name:fadeInUp;"><i class="fa fa-google-plus"></i></a></li>
-          <li><a data-wow-delay=".4s" class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates" style="visibility:visible;animation-delay:0.4s;animation-name:fadeInUp;"><i class="fa fa-pinterest"></i></a></li>
-          <li><a data-wow-delay=".5s" class="wow fadeInUp animated" href="https://www.free-css.com/free-css-templates" style="visibility:visible;animation-delay:0.5s;animation-name:fadeInUp;"><i class="fa fa-envelope"></i></a></li>
-        </ul>
-        <p class="copyright"> &copy; 2045 Be. Created By <a target="_blank" rel="nofollow noopener" href="//templatestock.co">Template Stock</a></p>
-      </div>
-      <div data-wow-delay=".6s" class="col-xs-12 col-sm-6 col-md-6 wow bounceIn animated" style="visibility:visible;animation-delay:0.6s;animation-name:bounceIn;">
-        <section class="widget widget_text" id="text-15">
-          <h3 class="widget-title">California, United States</h3>
-          <div class="textwidget">786, Firs Avenue, The Mall,<br>
-            <p>Tel: 01 234-56786<br>
-              Mobile: 01 234-56786<br>
-              E-mail: <a href="https://www.free-css.com/free-css-templates">info@domain.com</a></p>
-            <a href="https://www.free-css.com/free-css-templates">Get directions on the map</a> &rarr;</div>
-        </section>
-      </div>
-    </div>
-  </div>
-</footer>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/init.js"></script>
-<div id="freecssfooter">
-  <div id="fcssholder">
-    <div id="bsap_2365" class="bsarocks bsap_b893e54e42ad5b76e7b252f59be18e67"></div>
+    <img src="/w3images/coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+    <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
   </div>
 </div>
-<script type="text/javascript">
-var gaProperty = 'UA-120201777-1';var disableStr = 'ga-disable-' + gaProperty;if (document.cookie.indexOf(disableStr + '=true') > -1) {window[disableStr] = true;}
-function gaOptout(){document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2045 23:59:59 UTC; path=/';window[disableStr] = true;alert('Google Tracking has been deactivated');}
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-120201777-1', 'auto');ga('set', 'anonymizeIp', true);ga('send', 'pageview');
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Eat</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">Drink</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Bread Basket</h5>
+      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+    
+      <h5>Honey Almond Granola with Fruits</h5>
+      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+    
+      <h5>Belgian Waffle</h5>
+      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+    
+      <h5>Scrambled eggs</h5>
+      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+    
+      <h5>Blueberry Pancakes</h5>
+      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Coffee</h5>
+      <p class="w3-text-grey">Regular coffee 2.50</p><br>
+    
+      <h5>Chocolato</h5>
+      <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
+    
+      <h5>Corretto</h5>
+      <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
+    
+      <h5>Iced tea</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+    
+      <h5>Soda</h5>
+      <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
+    </div>  
+    <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
+    <p>Find us at some address at some place.</p>
+    <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
 </script>
+
 </body>
 </html>
